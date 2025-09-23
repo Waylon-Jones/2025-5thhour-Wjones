@@ -7,7 +7,7 @@ print("Hello World!")
 #2. Create a dictionary with 3 keys and a value for each key. One of the keys must have a value with a list containing
 #three numbers inside.
 myDictionary = {
-        "Waylon" : "Zero",
+        "Waylon" : [2008, 2025, 2100],
         "Mardi" : "One",
         "Merlin" : "Two",}
 print(myDictionary)
@@ -44,5 +44,5 @@ fifth_hour_class = {
 #9. Print the names of all three classmates on the same line.
 print(fifth_hour_class.keys())
 #10. Use the pop function to remove one of the nested dictionaries inside and print the full dictionary from #8.
-fifth_hour_class.pop("Student 2")
+fifth_hour_class.pop("Student 3")
 print(fifth_hour_class)
