@@ -46,3 +46,5 @@ print(fifth_hour_class.keys())
 #10. Use the pop function to remove one of the nested dictionaries inside and print the full dictionary from #8.
 fifth_hour_class.pop("Student 3")
 print(fifth_hour_class)
+
+print("Only to push new one")
