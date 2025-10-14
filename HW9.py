@@ -15,11 +15,11 @@ randomlist = [v1, v2, v3]
 #3. Print the list.
 print(randomlist)
 #4. Create an if statement that determines which of the three numbers is the highest and prints the result.
-if v1 >= v2 and v1 >= v3:
+if randomlist[v1] >= randomlist[v2] and randomlist[v1] >= randomlist[v3]:
     print("V1 is highest number")
-elif v2 >= v1 and v2 >= v3:
+elif randomlist[v2] >= randomlist[v1] and randomlist[v2] >= randomlist[v3]:
     print("V2 is highest number")
-elif v3 >= v1 and v3 >= v2:
+elif randomlist[v3] >= randomlist[v1] and randomlist[v3] >= randomlist[v2]:
     print("V3 is highest number")
 
 #5. Tie the result (the largest number) from #4 to a variable called "num".
